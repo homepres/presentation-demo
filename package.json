@@ -1,0 +1,38 @@
+{
+  "name": "presentation-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "front-matter": "^2.3.0",
+    "markdown-it": "^8.4.0",
+    "prop-types": "^15.6.0",
+    "ramda": "^0.25.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint src",
+    "prettify": "prettier-eslint src/**/*.js --write"
+  },
+  "eslintConfig": {
+    "extends": "homepres",
+    "env": {
+      "browser": true
+    }
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-homepres": "homepres/eslint-config-homepres",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "prettier-eslint-cli": "^4.6.1"
+  }
+}
